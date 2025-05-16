@@ -8,6 +8,14 @@ A beginner-friendly Python CLI project to track your daily mood. Stores entries 
 - Smart responses based on how you feel
 - Keeps a growing history of all your mood entries
 
+### Example Output
+[
+  {
+    "date": "2025-05-15 14:33:45",
+    "mood": "tired but vibin"
+  }
+]
+
 ## 🛠️ Tech Used
 - Python 3
 - JSON for local storage
