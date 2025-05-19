@@ -25,7 +25,8 @@ A beginner-friendly Python CLI project to track your daily mood. Stores entries 
 ```bash
 python mood_tracker.py
 ```
-
+## P.S
+Delete the mood_tracker.json file if you do not want to see my mood logs.
 ## 🛑 Disclaimer
 
 The original code for this project was created with the help of [ChatGPT](https://openai.com/chatgpt) to help me jumpstart my learning journey. I modified the comments and explored how the code works to build familiarity with Python before starting the **Cisco Python Essentials** course.
