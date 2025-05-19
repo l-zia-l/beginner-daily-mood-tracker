@@ -42,16 +42,22 @@ def respond_to_mood(feeling):
         return "Awesome that you are happy, great!"
     elif "sad" in feeling:
         return "Boohoo, write it out in your journal dude!"
+    elif "fine" in feeling:
+        return "Just vibin'? Respect. Sometimes fine is just enough."
     elif "apathetic" in feeling:
         return "I will give you something to feel. Look at this code"
     elif "excited" in feeling:
         return "Sunshine mode: ACTIVATED."
-    elif "confident" in felling:
+    elif "confident" in feeling:
         return "You’re the main character and this is your training montage."
     elif "anxious" in feeling:
         return "Let’s overthink together. I brought snacks and spiral thoughts."
     elif "tired" in feeling:
         return "Life’s hard. Take a break. Eat something beige."
+    elif "amazing" in feeling:
+        return "This is chef’s kiss level mood. Send some of that energy my way!"
+    elif "cool" in feeling:
+        return "Cool vibes only — you’re basically emotional air conditioning."
     elif "giddy" in feeling:
         return "Certified Silly Goose hours. Honk honk."
     elif "annoyed" in feeling:
@@ -72,6 +78,8 @@ def respond_to_mood(feeling):
         return "Love has entered the chat — and possibly broken the firewall."
     elif "bored" in feeling:
         return "Boredom: the itch you can’t scratch with productivity."
+    elif "splendid" in feeling:
+        return "You’re basically royalty in a whatever you are wearing... right now."
     elif "energized" in feeling:
         return "Pump the brakes, we're goin', movin', thrivin'!"
     elif "hidden feeling" in feeling:
