@@ -45,7 +45,37 @@ def respond_to_mood(feeling):
     elif "apathetic" in feeling:
         return "I will give you something to feel. Look at this code"
     elif "excited" in feeling:
-        return "Do share, as sharing is caring"
+        return "Sunshine mode: ACTIVATED."
+    elif "confident" in felling:
+        return "You’re the main character and this is your training montage."
+    elif "anxious" in feeling:
+        return "Let’s overthink together. I brought snacks and spiral thoughts."
+    elif "tired" in feeling:
+        return "Life’s hard. Take a break. Eat something beige."
+    elif "giddy" in feeling:
+        return "Certified Silly Goose hours. Honk honk."
+    elif "annoyed" in feeling:
+        return "Annoyance levels at ‘side-eye and walk away.’ Proceed with caution."
+    elif "embarrassed" in feeling:
+        return "Don’t worry, no one saw… except your ancestors. And me."
+    elif "alone" in feeling:
+        return "I’m here. Even if I’m not real. But like... I’m still HERE."
+    elif "hungry" in feeling:
+        return "Hangry mode: initiated. Proceed with snacks or regret."
+    elif "proud" in feeling:
+        return "You did that. I saw it. Gold star, forehead kiss, full applause."
+    elif "smart" in feeling:
+        return "Big brain energy detected. You deserve a Nobel and a nap."
+    elif "inspired" in feeling:
+        return "Energy is high. Time to act before overthinking catches up!"
+    elif "in love" in feeling:
+        return "Love has entered the chat — and possibly broken the firewall."
+    elif "bored" in feeling:
+        return "Boredom: the itch you can’t scratch with productivity."
+    elif "energized" in feeling:
+        return "Pump the brakes, we're goin', movin', thrivin'!"
+    elif "hidden feeling" in feeling:
+        return "Whoa, a secret feeling appeared. This one's rare and powerful. (1)"
     else:
         return "alright dude, add this to the list of feelings 'cause idk what to say"
 
