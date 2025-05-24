@@ -84,6 +84,10 @@ def respond_to_mood(feeling):
         return "Pump the brakes, we're goin', movin', thrivin'!"
     elif "hidden feeling" in feeling:
         return "Whoa, a secret feeling appeared. This one's rare and powerful. (1)"
+    elif "distracted" in feeling:
+        return "That's cool, come back in an hour, see how we're faring"
+    elif "exhausted" in feeling:
+        return "Okay, you've been grinding, either chill for a while or SLEEP!"
     else:
         return "alright dude, add this to the list of feelings 'cause idk what to say"
 
