@@ -88,6 +88,8 @@ def respond_to_mood(feeling):
         return "That's cool, come back in an hour, see how we're faring"
     elif "exhausted" in feeling:
         return "Okay, you've been grinding, either chill for a while or SLEEP!"
+    elif "angry" in feeling:
+        return "Bro! Use that as fuel! Progress just to spite whoever is making you angry! Goooooooo!"
     else:
         return "alright dude, add this to the list of feelings 'cause idk what to say"
 
