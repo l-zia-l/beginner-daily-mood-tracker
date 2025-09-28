@@ -19,12 +19,28 @@ A beginner-friendly Python CLI project to track your daily mood. Stores entries 
 ## 🛠️ Tech Used
 - Python 3
 - JSON for local storage
-- Command Line Interface
+- Command Line Interface (Git Bash)
+- Vim for text editing
 
 ## 📦 How to Run
+### Clone repository to your directory and go into the folder
 ```bash
-python mood_tracker.py
+git clone https://github.com/l-zia-l/beginner-daily-mood-tracker.git
+cd beginner-daily-mood-tracker.git
 ```
+### Run the Mood Tracker program
+```bash
+python mood_tracker.git
+```
+
+### Run mood list to add a new mood using Vim
+```bash
+vim mood_tracker.py      # open the file
+i                        # start typing/editing
+<Esc>                    # press Esc to exit insert mode
+:wq                      # type to save and quit
+```
+
 ## P.S
 Delete the mood_tracker.json file if you do not want to see my mood logs.
 ## 🛑 Disclaimer
